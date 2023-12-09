@@ -1,0 +1,5 @@
+Este Archivo es un Proyecto final, en donde se aportó lo aprendido a lo largo de la cursada. Se intenta demostrar el manejo de html css y js en el desarrollo de una breve pagina web de 4 paginas.
+Intentando asi, cumplir con los requisitos del la tarea dada que consistia en: implementar formularios, localstorage y fetch. Además de un wireframe de la pagina en sí y una paleta de colores definida. 
+De mi parte, intentado cumplir con lo deseado de una manera simple y no muy complicativa. La pagina cuenta con un Inicio en donde se da la bienvenida al usuario, una segunda pagina donde se ve un breve 
+catalogo de ventas, implementando js para que se añada la compra a un carrito. Además de una tercera y cuarta pagina en donde el usuario podrá registrase y con los mismos datos guardados en el localStorage
+podrá Iniciar sesion que lo redirija al inicio nuevamente. La pagina de inicio de sesion cuenta con un fetch, en donde se podrá visualizar contenido sobre noticias financieras casi "ilimitadas". 
