@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+}
+.navbar {
+    background-color: #82755b;
+    overflow: hidden;
+    display: flex;
+    margin: ;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: #6b634a;
+}
+
+.navbar .logo {
+    max-height: 200px;
+}
+
+.navbar .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar a:not(:first-child) {
+        display: none;
+    }
+
+    .navbar a.icon {
+        float: right;
+        display: block;
+    }
+
+    .navbar.responsive a {
+        display: block;
+        text-align: left;
+    }
+}
+
+/*comienza el main*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cbc2a3
+}
+.divform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+form {
+    
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+input {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+#finanzas {
+    display: flex;
+    flex-direction: column; /* Ajustar a una dirección de columna para centrar verticalmente */
+    justify-content: center;
+    align-items: center; /* Alinear el contenido en el centro verticalmente */
+    height: 30vh;
+    width: 50%;
+    background-color: #f4f4f4;
+    overflow-y: auto; /* Utilizar 'auto' para que aparezca la barra de desplazamiento sólo cuando sea necesario */
+    border: 1px solid #ccc;
+}
+.c-finanzas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh; /* Ocupar el 100% de la altura del viewport */
+}
+
+
+
+
+.news {
+    display: flex;
+    font-size: 5px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.news img {
+    
+    width: auto; 
+    height: 200px; 
+}
+/* footer */
+
+footer {
+    background-color: #82755b;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-links {
+    display: flex;
+    margin-right: 20px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+}
+
+.footer-icons i {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+}
